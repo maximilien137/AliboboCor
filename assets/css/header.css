@@ -1,0 +1,29 @@
+header {
+    width: 80%;
+    background-color: rgba(187, 187, 187, 0.384);
+    min-height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #3b2744;
+}
